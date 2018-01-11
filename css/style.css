@@ -1,0 +1,38 @@
+
+body{
+	position: relative;
+}
+label{
+	font-size: 20px;
+}
+#btn{
+	margin: 50px;
+}
+span{
+	color: red;
+}
+input{
+	margin: 5px;
+}
+.divAdd{
+	width: 50%;
+}
+.divAdd > input{
+
+	width: 40%;
+	margin: 10px;
+	height: 40px;
+	border: 1px solid darkgray;
+	border-radius: 5px;
+	text-indent: 5px;
+}
+#btnDiv{
+	display: inline-block;
+	right: 50%;
+	position: absolute;
+	top: 300px;
+}
+#addressErr{
+	font-size: 20px;
+	margin-left: 60%;
+}

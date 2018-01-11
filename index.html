@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>My Projects</title>
+		<meta charset="utf-8" />
+		<meta name="discription" content="Smith Anderson" />
+		<meta name="keywords" content="Smith Anderson" />
+		<meta name="autor" content="Edgar Sargsyan" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet"  href="font/css/font-awesome.min.css" />
+
+</head>
+<body>
+	<form  action="#" >
+			<div class="row">
+				<label class="control-label col-md-2" for="name">Name:</label>
+				<div class="col-md-6">
+					<input class="form-control" id="name" type="text" placeholder="name" required>
+					<span id="nameErr"></span>
+				</div>
+				
+			</div>	
+
+
+			<div class="row">
+				<label class="control-label col-md-2" for="login">Phone:</label>
+				<div class="col-md-6">
+					<input class="form-control" id="phone" type="tel" placeholder="phone" required>
+					<span id="phoneErr"></span>
+				</div>
+				
+			</div>
+		
+		
+			<div class="row">
+				<label class="control-label col-md-2" for="email">Email:</label>
+				<div class="col-md-6">
+					<input class="form-control " id="email" type="email" placeholder="email" required>
+					<span id="emailErr"></span>
+				</div>
+			</div>
+
+
+			<div class="add">
+				<label class="control-label col-md-2" for="address">Address:</label>
+				<br>
+				<br>
+				<div class="divAdd ">
+					<input name="country" class="text"  type="text" placeholder="country" required>
+					<input name="state" class="text"  type="text" placeholder="state" required>
+					<input  name="city" class="text"  type="text" placeholder="city" required>
+					<input name="address" class="address"  type="text" placeholder="address" required>
+					
+				
+				</div>
+				<span id="addressErr"></span>
+			
+			</div>
+			
+			
+			
+
+		
+			
+			<button type="submit" id="btn" class="btn btn-primary btn-lg">Submit</button>
+			
+		</form>
+
+				<div id="btnDiv">
+					<button id="btnMinus" class="btn btn-md btn-info">-</button>
+					<button id="btnPlus" class="btn btn-md btn-warning">+</button>
+				</div>
+
+
+
+	
+  
+  <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
